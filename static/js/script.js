@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
 
     var portrait_modal = $('[data-remodal-id=portrait-modal]').remodal();
     $(".portrait").click(function(event) {
-        portrait_modal.open();
+        alert("这么拉轰的头像，你忍不住要点了吧...");
     });
     $('[data-remodal-id=portrait-modal] button').click(function(event) {
         $(".portrait").css('background-image', 'url("{0}")'.format($("#avatar-url").val()));
